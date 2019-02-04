@@ -1,0 +1,28 @@
+{
+  "name": "product_management_api",
+  "version": "1.0.0",
+  "description": "manage product api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "manage",
+    "product",
+    "api"
+  ],
+  "author": "Putheapiseth Ung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "isset": "^1.0.4",
+    "mongoose": "^5.4.9",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9"
+  }
+}
