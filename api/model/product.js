@@ -4,8 +4,8 @@ const validate = require('mongoose-validator');
 const productNameValidator = [
   validate({
     validator: 'isLength',
-    arguments: [3, 50],
-    message: 'Product Name should be between 3 to 50 characters'
+    arguments: [3, 80],
+    message: 'Product Name should be between 3 to 80 characters'
   })
 ];
 
